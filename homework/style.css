@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+    margin: 0;
+}
+body > header {
+    color: white;
+    background-color: dodgerblue;
+    padding: 24px;
+}
+body > header > nav > ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+body > header > nav > ul > li > a {
+    color: white;
+}
+body > aside > form > p {
+    margin: 0;
+}
+body > aside > section > img {
+    transform: scaleX(-1);
+}
