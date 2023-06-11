@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
+    zoom: 70%;
 }
 h1 {
     margin: 0;
@@ -8,18 +9,44 @@ h1 {
 body > header {
     color: white;
     background-color: dodgerblue;
-    padding: 24px;
+    padding: 2%;
 }
-body > header > nav > ul {
+header > nav > ul {
     list-style: none;
-    margin-bottom: 0;
+    margin-bottom: 0.5%;
 }
-body > header > nav > ul > li > a {
+header > nav > ul > li > a {
     color: white;
 }
-body > aside > form > p {
+aside > form > p {
     margin: 0;
 }
-body > aside > section > img {
+aside > section > img {
+    width: 15%;
     transform: scaleX(-1);
+}
+main {
+    margin: auto;
+    width: 80%;
+}
+textarea {
+    width: 100%;
+    resize: none;
+}
+main > form > p {
+    margin: 0;
+    text-align: right;
+}
+main > section > img {
+    width: 8%;
+}
+footer {
+    color: white;
+    background-color: dodgerblue;
+    padding: 12px;
+}
+footer > h4 {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
 }
